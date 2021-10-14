@@ -1,0 +1,99 @@
+nav,main,footer{
+    overflow: auto;
+}
+.navbar{
+    flex-direction: column;
+}
+.menu ul{
+    padding: 10px 0px;
+    display: block;
+}
+.menu ul li{
+    padding: 10px 0px;
+    display: block;
+    text-align: center;
+}
+.menu ul li a{
+    font-size: 1.7rem;
+}
+.sun img{
+    width: 5rem;
+}
+.header{
+    font-size: 2.1rem;
+    text-align: center;
+    line-height: 2rem;
+}
+.description{
+    width: 90vw;
+    text-align: center;
+}
+.skill{
+    flex-direction: column;
+}
+.sksub{
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border-style: double;
+    background-color: #1cace09a;
+}
+[class*="col-"]{
+    width: 100%;
+}
+.experience{
+    flex-direction: column;
+}
+.skill-progress,.work-experience{
+    margin-top: 20px;
+}
+.about-content{
+    flex-direction: column;
+}
+.about-photo {
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+#inner{
+    width: 300px;
+}
+.about-desc{
+    padding: 10px;
+}
+.about-desc p{
+    text-align: center;
+}
+.contact-desc{
+    flex-direction: column;
+}
+.contact-form{
+    border-right: none;
+}
+.media-button{
+    position: relative;
+    margin-top: 50px;
+}
+.media-button button{
+    margin-left: 10px;
+}
+.media-button button:nth-child(4){
+    display: none;
+}
+.contact-form form textarea{
+    height: 150px;
+}
+.foot-menu{
+    flex-direction: column;
+}
+.foot-menu p{
+    text-align: center;
+    line-height: 30px;
+    padding-top: 10px;
+}
+.foot-menu ul{
+    justify-content: center;
+    font-size: 1.4rem;
+}
