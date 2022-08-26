@@ -564,8 +564,9 @@ textarea {
 footer {
   background-color: #071e3d;
   color: white;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   padding: 20px;
+  padding-bottom: 0rem;
 }
 .foot-menu {
   display: flex;
@@ -584,10 +585,12 @@ footer {
     font-family: 'Roboto', sans-serif;
 }
 .copy-p {
+  font-size: 0.5rem;
   text-align: center;
   text-transform: capitalize;
   line-height: 36px;
   font-family: 'Roboto', sans-serif;
+  padding-bottom: 0rem;
 }
 #fm{
     font-family: 'Playball', cursive;;
